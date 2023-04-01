@@ -14,6 +14,7 @@ private String passHash;
 
 * Analyze the method signature **parseShadow** and note what it's return type is below:
     * Return Type?
+    * It's return type is an array.
 * A Unix/Linux Shadow file contains username and password hashes for each user seperated by a delimiter **:**
 * In this section, follow the steps below to parse each username and password hash out of the provided Shadow file and store it in a user array.
 * Complete the body of the **parseShadow** method utilizing:
